@@ -1,0 +1,33 @@
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:theme="@style/ArataOptiuni"
+    android:layout_height="60dp"
+   android:layout_gravity="center"
+    android:background="#ddd"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activities.ChooseActivity">
+
+
+    <TextView
+        android:id="@+id/opt1"
+        android:text="Neterminale"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/opt2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="Terminale"
+        android:layout_weight="1"
+        android:gravity="center"
+        />
+
+
+
+</LinearLayout>
